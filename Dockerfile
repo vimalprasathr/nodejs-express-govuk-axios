@@ -1,4 +1,4 @@
-FROM node:16
+FROM kainos-engacademy:expressgov
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
